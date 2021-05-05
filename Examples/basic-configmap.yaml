@@ -1,0 +1,15 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: my-configmap
+data:
+  key1: value1
+  key2: value2
+  key3:
+    subkey:
+      morekeys: data
+      evenmore: even more data
+  key4: |
+    Multiline data
+    can be given 
+    here
